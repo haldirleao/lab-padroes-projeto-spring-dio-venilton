@@ -44,10 +44,11 @@
 			<version>${openapi.version}</version>
 		</dependency>
 
-		<!-- H2 Database (adicionado via Spring Initializr) -->
+		<!-- MYSQL haldir 29/04/2023-->
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>8.0.33</version>
 			<scope>runtime</scope>
 		</dependency>
 
